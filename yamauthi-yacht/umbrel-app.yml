@@ -25,9 +25,9 @@ repo: https://github.com/SelfhostedPro/Yacht
 support: https://yacht.sh/docs/
 port: 8000
 gallery:
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-1.png
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-2.png
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-3.png
+  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-1.jpeg
+  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-2.jpeg
+  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-3.jpeg
 path: ""
 defaultUsername: "admin@yacht.local"
 defaultPassword: "pass"
