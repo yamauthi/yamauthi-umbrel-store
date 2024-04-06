@@ -1,34 +1,28 @@
 manifestVersion: 1
 id: yamauthi-emulatorjs
 name: EmulatorJS
-tagline: In browser retro games emulator
-icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emulatorjs-logo.png
 category: Games
 version: "1.9.0"
-port: 3020
-description: >-
-  In browser web based emulation portable to nearly any device for many retro consoles. 
-  A mix of emulators is used between Libretro and EmulatorJS
-
-  The Backend can be accessed at: http://umbrel.local:3000/
-  The first thing you will need to do is click to download the default art/configs from this interface, 
-  this will setup a skeleton directory in your /data mount. From there add roms to the respective roms directories 
-  and follow the on screen instructions to add them to your web frontend running on port 3020.
-
+tagline: In browser retro games emulator
+icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/emulatorjs-logo.png
+description: >
+  In browser web based emulation portable to nearly any device for many retro consoles. A mix of emulators is used between Libretro and EmulatorJS
+  The Backend can be accessed at: http://umbrel.local:3000/. The first thing you will need to do is click to download the default art/configs from this interface, this will setup a skeleton directory in your /data mount. From there add roms to the respective roms directories and follow the on screen instructions to add them to your web frontend running on port 3020.
   Check out the docs for more information about rom management.
   Upload your rooms and have fun!
-developer: Umbrel
+developer: LinuxServer.io
 website: https://docs.linuxserver.io/images/docker-emulatorjs/
-submitter: Yamauthi
-submission:
+dependencies: []
 repo: https://github.com/linuxserver/docker-emulatorjs
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+support: https://docs.linuxserver.io/images/docker-emulatorjs/
+port: 3020
 gallery:
   - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-1.png
   - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-2.png
   - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-3.png
-releaseNotes: >-
-dependencies: []
 path: ""
-defaultUsername: ""
 defaultPassword: ""
+releaseNotes: >
+  https://github.com/portainer/portainer
+submitter: Yamauthi
+submission:
