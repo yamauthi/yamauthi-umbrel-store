@@ -22,9 +22,9 @@ repo: https://github.com/linuxserver/docker-emulatorjs
 support: https://docs.linuxserver.io/images/docker-emulatorjs/
 port: 9620
 gallery:
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-1.jpeg
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-2.jpeg
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-3.jpeg
+  - https://raw.githubusercontent.com/yamauthi/yamauthi-umbrel-store/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-1.jpeg
+  - https://raw.githubusercontent.com/yamauthi/yamauthi-umbrel-store/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-2.jpeg
+  - https://raw.githubusercontent.com/yamauthi/yamauthi-umbrel-store/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-3.jpeg
 path: ""
 defaultPassword: ""
 releaseNotes: >

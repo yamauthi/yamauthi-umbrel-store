@@ -4,7 +4,7 @@ name: Yacht
 category: Developer Tools
 version: "0.0.7"
 tagline: A container management UI with a focus on templates and 1-click deployments.
-icon: https://m.do.co/c/d4aa430d72d9
+icon: https://raw.githubusercontent.com/SelfhostedPro/Yacht/master/readme_media/Yacht_logo_1_dark.png
 description: >
   Easy to Use
     Yacht was designed from the ground up to be easily installed and used to get your website up and running quickly.
@@ -25,9 +25,9 @@ repo: https://github.com/SelfhostedPro/Yacht
 support: https://yacht.sh/docs/
 port: 8000
 gallery:
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-1.jpeg
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-2.jpeg
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-3.jpeg
+  - https://raw.githubusercontent.com/yamauthi/yamauthi-umbrel-store/master/yamauthi-yacht/screenshots/yacht-screenshot-1.jpeg
+  - https://raw.githubusercontent.com/yamauthi/yamauthi-umbrel-store/master/yamauthi-yacht/screenshots/yacht-screenshot-2.jpeg
+  - https://raw.githubusercontent.com/yamauthi/yamauthi-umbrel-store/master/yamauthi-yacht/screenshots/yacht-screenshot-3.jpeg
 path: ""
 defaultUsername: "admin@yacht.local"
 defaultPassword: "pass"
