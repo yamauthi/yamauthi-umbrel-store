@@ -1,0 +1,25 @@
+version: "3.9"
+
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: emulatorjs_1
+      APP_PORT: 3020
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: lscr.io/linuxserver/emulatorjs:latest
+    restart: on-failure
+    hostname: "${DEVICE_HOSTNAME}"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Vancouver
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+      - ${UMBREL_ROOT}/data/storage/downloads/emulatorjs:/data
+    ports:
+      - 3000:3000
+      - 3020:80
+      - 4001:4001 #optional
