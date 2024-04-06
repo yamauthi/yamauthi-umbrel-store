@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: yamauthi-emulatorjs_server_1
-      APP_PORT: 3020
+      APP_PORT: 9620
       PROXY_AUTH_ADD: "false"
 
   server:
@@ -17,7 +17,7 @@ services:
       - TZ=America/Vancouver
     ports:
       - 3000:3000
-      - 3020:80
+      - 9620:80
       - 4001:4001 #optional
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
