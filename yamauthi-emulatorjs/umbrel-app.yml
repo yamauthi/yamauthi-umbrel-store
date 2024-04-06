@@ -9,8 +9,10 @@ description: >
   In browser web based emulation portable to nearly any device for many retro consoles. 
   
   A mix of emulators is used between Libretro and EmulatorJS
-  The Backend can be accessed at: http://umbrel.local:3000/. The first thing you will need to do is click to download the default art/configs from this interface, this will setup a skeleton directory in your /data mount.
+  The Backend can be accessed at: http://umbrel.local:3000/. 
+  The first thing you will need to do is click to download the default art/configs from this interface, this will setup a skeleton directory in your /data mount.
   From there add roms to the respective roms directories and follow the on screen instructions to add them to your web frontend running on port 9620.
+  
   Check out the docs for more information about rom management.
   Upload your rooms and have fun!
 developer: LinuxServer.io
@@ -20,9 +22,9 @@ repo: https://github.com/linuxserver/docker-emulatorjs
 support: https://docs.linuxserver.io/images/docker-emulatorjs/
 port: 9620
 gallery:
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-1.png
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-2.png
-  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-3.png
+  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-1.jpeg
+  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-2.jpeg
+  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-emulatorjs/screenshots/emulatorjs-screenshot-3.jpeg
 path: ""
 defaultPassword: ""
 releaseNotes: >
