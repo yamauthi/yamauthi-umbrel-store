@@ -23,6 +23,6 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >
-  https://github.com/portainer/portainer
+  Checkout https://github.com/linuxserver/docker-emulatorjs
 submitter: Yamauthi
 submission:
