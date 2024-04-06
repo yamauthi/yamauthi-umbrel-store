@@ -1,0 +1,52 @@
+manifestVersion: 1
+id: yamauthi-yacht
+name: Yacht
+category: Developer Tools
+version: "0.0.7"
+tagline: A container management UI with a focus on templates and 1-click deployments.
+icon: https://m.do.co/c/d4aa430d72d9
+description: >
+  Easy to Use
+    Yacht was designed from the ground up to be easily installed and used to get your website up and running quickly.
+  Focus on What Matters
+    Yacht lets you focus on what apps you want to run instead of worrying about how to deploy them.
+  Compose Support Out of The Box
+    Managing large docker projects has never been easier. Import compose projects you're already using or write new ones easily using the built in editor.
+
+  Post Installation
+  Templating: Currently Yacht is compatible with portainer templates. You'll add a template url in the "Add Template" settings. The the template will be read, separated into apps, and imported into the database. The apps associated with the templates are linked via a db relationship so when the template is removed, so are the apps associated with it. We store the template url as well so we can enable updating templates with a button press.
+  We recommend starting with: https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/yacht/Template/template.json
+  
+  Note: Apps deployed on Yacht will not appear on the UmbrelOS system. 
+developer: SelfhostedPro
+website: https://yacht.sh/
+dependencies: []
+repo: https://github.com/SelfhostedPro/Yacht
+support: https://yacht.sh/docs/
+port: 8000
+gallery:
+  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-1.png
+  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-2.png
+  - https://github.com/yamauthi/yamauthi-umbrel-store/blob/master/yamauthi-yacht/screenshots/yacht-screenshot-3.png
+path: ""
+defaultUsername: "admin@yacht.local"
+defaultPassword: "pass"
+releaseNotes: >
+  Features So Far:
+    - Vuetify UI Framework
+    - Basic Container Management
+    - Template Framework
+    - Easy Template Updating
+    - Centralized settings for volume management and similar QOL functionality.
+    - Docker-Compose Compatibility
+    - Advanced Container Management (Edit/Modify)
+  Planned Features:
+    - Container Monitoring
+    - Easy access to container interfaces
+    - User Management
+    - Scheduled Jobs
+
+  If you want something that's not planned please open a feature request issue and we'll see about getting it added.
+  Keep in mind, this is an alpha so the risk of data loss is real and it may not be stable
+submitter: Yamauthi
+submission:
